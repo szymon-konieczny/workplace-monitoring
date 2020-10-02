@@ -1,0 +1,96 @@
+.app-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background: rgb(147, 215, 237);
+  background: radial-gradient(
+    circle,
+    rgba(147, 215, 237, 1) 0%,
+    rgba(168, 220, 252, 1) 43%,
+    rgba(124, 196, 255, 1) 100%
+  );
+}
+
+.main {
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background: rgb(147, 215, 237);
+  background: radial-gradient(
+    circle,
+    rgba(147, 215, 237, 1) 0%,
+    rgba(168, 220, 252, 1) 43%,
+    rgba(124, 196, 255, 1) 100%
+  );
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  padding: 30px 0;
+}
+
+.webcam-wrapper {
+  position: relative;
+}
+
+.status-item {
+  margin: 0 5px;
+}
+
+.people-amount__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.people-amount {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+}
+
+.status-indicator {
+  width: 24px;
+  height: 24px;
+  border-radius: 30px;
+}
+
+.sidebar {
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 0 0 30px;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 10px 1px rgba(156, 224, 245, 0.596);
+}
+
+.taken {
+  background-color: red;
+}
+
+.empty {
+  background-color: green;
+}
